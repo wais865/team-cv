@@ -1,0 +1,31 @@
+{
+  "name": "team-cv",
+  "version": "1.0.0",
+  "description": "Team CV — a simple TypeScript + Node.js app that stores team member profiles in YAML",
+  "main": "dist/server/server.js",
+  "scripts": {
+    "build:server": "tsc -p tsconfig.json",
+    "build:client": "tsc -p tsconfig.client.json",
+    "build": "npm run build:server && npm run build:client",
+    "start": "node dist/server/server.js",
+    "dev": "npm run build:client && tsx watch src/server/server.ts",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.client.json --noEmit"
+  },
+  "keywords": ["typescript", "nodejs", "express", "yaml", "crud"],
+  "license": "MIT",
+  "engines": {
+    "node": ">=20"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "multer": "^2.0.2",
+    "yaml": "^2.8.1"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.3",
+    "@types/multer": "^2.0.0",
+    "@types/node": "^22.18.0",
+    "tsx": "^4.20.0",
+    "typescript": "~5.9.3"
+  }
+}

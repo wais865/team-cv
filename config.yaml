@@ -1,0 +1,19 @@
+# ------------------------------------------------------------
+# Team CV — application settings
+# Edit these values and restart the server.
+# ------------------------------------------------------------
+
+app:
+  title: Team CV
+  subtitle: Who we are and what we bring to the team
+
+server:
+  port: 3000
+
+storage:
+  # All team members are stored in this YAML file
+  dataFile: data/team.yaml
+  # Uploaded profile photos go here
+  uploadDir: uploads
+  # Max photo size in megabytes
+  maxPhotoSizeMB: 5

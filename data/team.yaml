@@ -1,0 +1,114 @@
+# Team CV data — managed by the app, but safe to edit by hand.
+members:
+  - id: 7d1c2a8e-4b1f-4c55-9a51-2f0e6b3c9a01
+    name: Lena Hoffmann
+    jobTitle: Senior Frontend Developer
+    department: Engineering
+    email: lena.hoffmann@example.com
+    phone: +49 30 1234567
+    dateOfBirth: 1991-04-17
+    nationality: German
+    address:
+      street: Torstraße 112
+      postalCode: "10119"
+      city: Berlin
+      country: Germany
+    bio: Builds fast, accessible interfaces and mentors the junior developers on the team.
+    skills:
+      - TypeScript
+      - React
+      - CSS
+      - Accessibility
+    languages:
+      - German
+      - English
+    hobbies:
+      - Bouldering
+      - Film photography
+      - Cooking
+    experiences:
+      - company: Nordlicht Digital
+        position: Senior Frontend Developer
+        startDate: 2022-03
+        description: Leads the design system and the customer portal.
+      - company: Pixelwerk GmbH
+        position: Frontend Developer
+        startDate: 2017-09
+        endDate: 2022-02
+        description: Built e-commerce storefronts for retail clients.
+    photo: /uploads/21edeaee-421d-441b-95c3-258d21215a7a.jpg
+    createdAt: 2026-10-01T09:00:00.000Z
+    updatedAt: 2026-10-11T23:46:00.612Z
+  - id: 3a9f5e21-8c2d-4e7b-b0f4-6d1a2c3e4f02
+    name: Jonas Becker
+    jobTitle: Backend Engineer
+    department: Engineering
+    email: jonas.becker@example.com
+    phone: +49 89 7654321
+    dateOfBirth: 1995-11-02
+    nationality: German
+    address:
+      street: Leopoldstraße 45
+      postalCode: "80802"
+      city: München
+      country: Germany
+    bio: Designs APIs and keeps the Node.js services running smoothly.
+    skills:
+      - Node.js
+      - PostgreSQL
+      - Docker
+      - YAML
+    languages:
+      - German
+      - English
+      - Spanish
+    hobbies:
+      - Cycling
+      - Chess
+    experiences:
+      - company: Nordlicht Digital
+        position: Backend Engineer
+        startDate: 2023-01
+        description: Owns the billing and notification services.
+      - company: DataBridge AG
+        position: Junior Developer
+        startDate: 2020-08
+        endDate: 2022-12
+    createdAt: 2026-10-01T09:05:00.000Z
+    updatedAt: 2026-10-01T09:05:00.000Z
+  - id: c4e8b7d3-1f6a-4a2b-9e3c-8b5d7f1a2e03
+    name: Sara Yilmaz
+    jobTitle: Product Designer
+    department: Design
+    email: sara.yilmaz@example.com
+    dateOfBirth: 1998-07-23
+    nationality: German
+    address:
+      street: Schanzenstraße 9
+      postalCode: "20357"
+      city: Hamburg
+      country: Germany
+    bio: Turns user research into clear, friendly product flows.
+    skills:
+      - Figma
+      - User research
+      - Prototyping
+    languages:
+      - German
+      - Turkish
+      - English
+    hobbies:
+      - Ceramics
+      - Hiking
+      - Board games
+    experiences:
+      - company: Nordlicht Digital
+        position: Product Designer
+        startDate: 2024-05
+      - company: Studio Kreis
+        position: UX Design Intern
+        startDate: 2023-09
+        endDate: 2024-03
+        description: Redesigned the onboarding flow of a banking app.
+    createdAt: 2026-10-01T09:10:00.000Z
+    updatedAt: 2026-10-01T09:10:00.000Z
