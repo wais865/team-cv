@@ -1,6 +1,7 @@
 # Team CV
 
 A simple full-stack app built with **TypeScript**, **Node.js (Express)** and **YAML**.
+At this project I showed how to use Yaml file as an Offline database just for learning porpuse.
 It shows the CVs of your team members and lets you add, view, edit and delete them.
 No database is needed: all data lives in a readable YAML file.
 
